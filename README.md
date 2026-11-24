@@ -1,27 +1,11 @@
-# Data-Analytics-Insights-leadership-portfolio/
-├── README.md
-├── .github/
-│   └── workflows/
-│       └── analytics_ci_pipeline.yml
-├── 01_strategic_planning/
-│   ├── 12_month_data_roadmap.md
-│   └── okr_kpi_alignment_framework.md
-├── 02_governance_and_operating_model/
-│   ├── data_governance_charter.md
-│   └── analytics_intake_and_prioritization.md
-├── 03_automated_analytics_project/
-│   ├── README.md
-│   ├── dbt_project/
-│   │   ├── dbt_project.yml
-│   │   └── models/
-│   │       ├── staging/
-│   │       │   └── stg_customer_orders.sql
-│   │       └── marts/
-│   │           ├── mart_executive_revenue.sql
-│   │           └── schema.yml
-│   └── python_automation/
-│       ├── requirements.txt
-│       ├── anomaly_detection_alerts.py
-│       └── executive_digest_bot.py
-└── 04_stakeholder_enablement/
-    └── self_service_bi_playbook.md
+# Enterprise Data & Insights Leadership Portfolio
+
+A practical blueprint demonstrating how a modern **Data & Insights Analytics Manager** aligns data platforms, multidisciplinary teams, and automated intelligence with organizational strategy.
+
+## Core Pillars
+1. **Strategic Planning (`01_strategic_planning/`)**: Translating C-suite objectives into measurable OKRs and a phased 12-month delivery roadmap.
+2. **Operating Model & Governance (`02_governance_and_operating_model/`)**: Balancing self-service agility with data quality, privacy, and intake prioritization.
+3. **End-to-End Automated Analytics (`03_automated_analytics_project/`)**: Production-ready dimensional modeling (`dbt` + SQL) paired with Python anomaly detection and automated executive reporting.
+4. **Stakeholder Enablement (`04_stakeholder_enablement/`)**: Driving data literacy and reducing ad-hoc reporting bottlenecks.
+
+## Architecture Overview
